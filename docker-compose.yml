@@ -7,6 +7,6 @@ services:
   web:
     image: ctftraining/huwangbei_2018_easy_laravel
     # build: .
-    port:
+    ports:
       - "127.0.0.1:8081:80"
     restart: always
