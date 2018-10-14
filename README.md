@@ -18,6 +18,11 @@
 - Laravel 框架 Auth、Blade模板
 - 反序列化 [利用phar 拓展 php 反序列化漏洞攻击面](https://paper.seebug.org/680/)
 
+## 启动
+
+	docker-compose up -d
+	open http://127.0.0.1:8081/
+
 ## 复现说明及修改
 
 该环境根据 github 开源代码 `https://github.com/qqqqqqvq/easy_laravel` 及打比赛过程推理进行复现。
