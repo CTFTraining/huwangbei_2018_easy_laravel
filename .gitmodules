@@ -1,0 +1,3 @@
+[submodule "easy_laravel"]
+	path = easy_laravel
+	url = https://github.com/qqqqqqvq/easy_laravel.git
