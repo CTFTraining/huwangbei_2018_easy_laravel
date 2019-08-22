@@ -1,6 +1,10 @@
 #!/bin/sh
 set -e
 
+echo $FLAG > /th1s1s_F14g_2333333
+export FLAG=not_flag
+FLAG=not_flag
+
 # reset_admin_passwd
 sh -c '/usr/local/bin/reset_admin_passwd.sh' &
 
